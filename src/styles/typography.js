@@ -34,7 +34,7 @@ export const FONT_TITLE = {
 }
 export const FONT_SUB_TITLE = {
     fontFamily: FONT_FAMILY,
-    color: 'black',
+    color: 'red',
 
 }
 export const FONT_TEXT_IMPUT_TITLE = {
