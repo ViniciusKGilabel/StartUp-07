@@ -1,7 +1,8 @@
-import React from "react";
-import {View, SafeAreaView } from "react-native"
-import Text from '../../atom/Text'
-import Button from '../../atom/Button'
+/* eslint-disable prettier/prettier */
+import React from 'react';
+import {View, SafeAreaView } from 'react-native';
+import { Text, textStyleEnum } from '../../atom/Text';
+import Button from '../../atom/Button';
 
 function Home () {
     return (
@@ -13,7 +14,7 @@ function Home () {
             </View>
             <View>
                 <Text textStyle={textStyleEnum.FONT_SUB_TITLE}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Text>
             </View>
             <View>
@@ -27,7 +28,7 @@ function Home () {
                 </Button>
             </View>
         </SafeAreaView>
-    )
+    );
 }
 
-export default Home
+export default Home;
